@@ -15,7 +15,14 @@
 
             t.Move(10, 10);
             t.PrintCoordinates();
-            
+
+
+            Square square = new Square(
+                new Point(50, 50),
+                100);
+
+            square.Move(20, 20);
+            square.PrintCoordinates();
         }
     }
 }
