@@ -8,6 +8,13 @@
             p.Move(10, 10);
             p.PrintCoordinates();
 
+            string textPoint = p;
+            Console.WriteLine(textPoint);
+
+            string text = "[X=110, Y=110]";
+            Point p2 = (Point)text;
+            p2.PrintCoordinates();
+
             Triangle t = new Triangle(
                 new Point(10, 10),
                 new Point(100, 20),
